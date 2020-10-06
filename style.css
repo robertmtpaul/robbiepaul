@@ -1,44 +1,49 @@
-
 body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: 'Source Sans Pro', sans-serif;
 }
+
 
 /* ============================ CUSTOM STYLES ========================== */
 
 header {
-  margin: 5rem;
+    margin: 5rem;
 }
 
 header span {
-  font-weight: 1000;
+    font-weight: 1000;
 }
 
 header a {
-  text-decoration: none;
-  font-weight: 100;
-  color: grey
+    text-decoration: none;
+    font-weight: 100;
+    color: grey
 }
 
 header a:hover {
-  font-weight: 500;
-  color: rgb(85, 84, 84);
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(85, 84, 84);
 }
+
+.wrapper p {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
 
 /* ============================ JUMBOTRON STYLES ========================== */
 
-.jumbotron {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+.site_banner {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 .light-text {
-  font-weight: 100;
+    font-weight: 100;
 }
 
 
 /* ========================= PROJECT GALLERY STYLES ==================== */
-
-
 
 #projects {
     background-color: rgba(246, 246, 246);
@@ -47,16 +52,7 @@ header a:hover {
     margin-bottom: 0px;
 }
 
-.wrapper p {
-  margin-left: 5rem;
-  margin-right: 5rem;
-}
-
-.thumbnail {
-    max-width: 25rem;
-}
-
-.container {
+.projects_container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
@@ -64,21 +60,79 @@ header a:hover {
     grid-row-gap: 10px;
     margin-left: 50px;
     margin-right: 50px;
-  }
-  
-.card {
+}
+
+.project_card {
     height: 90%;
-    padding: 3rem;
     list-style-type: none;
     margin: 0 auto;
     /* margin-bottom: 60px; */
     margin-top: 10px;
-  }
+}
+
+.thumbnail {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.thumbnail_container {
+    position: relative;
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.thumbnail_container:hover .overlay {
+    opacity: 1;
+}
+
 
 /* ========================= RESUME STYLES ==================== */
 
 #resume {
-  background-color: rgba(238, 238, 238);
-  margin-top: 0px;
-  padding: 15px;
+    background-color: rgba(238, 238, 238);
+    margin-top: 0px;
+    padding: 15px;
+}
+
+.avatar_container {
+    display: flex;
+    justify-content: center;
+}
+
+.avatar {
+    width: 20%;
+    border-radius: 60%;
+    margin: 4%;
+}
+
+.resume_container {
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+    grid-template-rows: 50% 50%;
+    justify-content: center;
+    grid-row-gap: 10px;
+}
+
+.button_container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-dark {
+    margin: 0.5rem;
 }

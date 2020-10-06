@@ -1,0 +1,84 @@
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+/* ============================ CUSTOM STYLES ========================== */
+
+header {
+  margin: 5rem;
+}
+
+header span {
+  font-weight: 1000;
+}
+
+header a {
+  text-decoration: none;
+  font-weight: 100;
+  color: grey
+}
+
+header a:hover {
+  font-weight: 500;
+  color: rgb(85, 84, 84);
+}
+
+/* ============================ JUMBOTRON STYLES ========================== */
+
+.jumbotron {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.light-text {
+  font-weight: 100;
+}
+
+
+/* ========================= PROJECT GALLERY STYLES ==================== */
+
+
+
+#projects {
+    background-color: rgba(246, 246, 246);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin-bottom: 0px;
+}
+
+.wrapper p {
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.thumbnail {
+    max-width: 25rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+.card {
+    height: 90%;
+    padding: 3rem;
+    list-style-type: none;
+    margin: 0 auto;
+    /* margin-bottom: 60px; */
+    margin-top: 10px;
+  }
+
+/* ========================= RESUME STYLES ==================== */
+
+#resume {
+  background-color: rgba(238, 238, 238);
+  margin-top: 0px;
+  padding: 15px;
+}

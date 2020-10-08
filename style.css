@@ -46,7 +46,7 @@ header a:hover {
 /* ========================= PROJECT GALLERY STYLES ==================== */
 
 #projects {
-    background-color: rgba(246, 246, 246);
+    background-color: rgba(238, 238, 238);
     padding-top: 5rem;
     padding-bottom: 5rem;
     margin-bottom: 0px;
@@ -104,7 +104,7 @@ header a:hover {
 /* ========================= RESUME STYLES ==================== */
 
 #resume {
-    background-color: rgba(238, 238, 238);
+    background-color: rgba(246, 246, 246);
     margin-top: 0px;
     padding: 15px;
 }

@@ -103,6 +103,17 @@ header a:hover {
 
 /* ========================= RESUME STYLES ==================== */
 
+.icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    font-size: 3rem;
+}
+
+.icons i:hover {
+    color: rgb(218, 146, 11);
+}
+
 #resume {
     background-color: rgba(246, 246, 246);
     margin-top: 0px;

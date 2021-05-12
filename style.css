@@ -34,12 +34,23 @@ header a:hover {
 /* ============================ JUMBOTRON STYLES ========================== */
 
 .site_banner {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .light-text {
     font-weight: 100;
+}
+
+.avatar {
+    width: 69%;
+    border-radius: 16%;
+    margin: 4%;
 }
 
 
@@ -66,7 +77,6 @@ header a:hover {
     height: 90%;
     list-style-type: none;
     margin: 0 auto;
-    /* margin-bottom: 60px; */
     margin-top: 10px;
 }
 
@@ -74,6 +84,7 @@ header a:hover {
     width: 100%;
     height: auto;
     display: block;
+    border-radius: 3%;
 }
 
 .thumbnail_container {
@@ -118,17 +129,6 @@ header a:hover {
     background-color: rgba(246, 246, 246);
     margin-top: 0px;
     padding: 15px;
-}
-
-.avatar_container {
-    display: flex;
-    justify-content: center;
-}
-
-.avatar {
-    width: 20%;
-    border-radius: 60%;
-    margin: 4%;
 }
 
 .resume_container {
